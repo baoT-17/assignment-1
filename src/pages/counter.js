@@ -1,12 +1,13 @@
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
+import Counter from '../components/Counter';
 
-export default function Home() {
+export default function CounterPage() {
   return (
     <div>
       <Header />
       <Navbar />
-      <h1>Welcome to my website</h1>
+      <Counter />
     </div>
   );
 }
